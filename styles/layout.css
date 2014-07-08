@@ -1,0 +1,197 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+body {
+	margin: auto;
+	max-width: 65%;
+	border-style: none;
+}
+
+#header {
+	background-image : url(../images/logo.gif);
+	background-position : left;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-clip: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	height: 200px;
+	border-width: .1em;
+	border-style: solid;
+	border-bottom-width: 0;
+	padding: 10%;
+}
+
+
+#navigation {
+	background-image: url(../images/navbar.gif);
+	background-position: bottom left;
+	background-repeat: repeat-x;
+	border-width: .1em;
+	border-style: solid;
+	border-bottom-width: 0;
+	border-top-width: 0;
+	padding-left: 27%;
+}
+#navigation ul {
+	width: 100%;
+	overflow: hidden;
+	border-left-width: .1em;
+	border-left-style: solid;
+}
+#navigation li {
+	display: inline;
+}
+#navigation li a {
+	display: block;
+	float: left;
+	padding: .5em 2em;
+	border-right: .1em solid;
+}
+#content {
+	border-width: .1em;
+	border-style: solid;
+	border-top-width: 0;
+	padding: 2em 10%;
+	line-height: 1.8em;
+}
+label {
+	display: block;
+}
+fieldset {
+	border: 0;
+}
+li {
+	list-style-type: none;
+}
+footer {
+	text-align: center;
+	padding-top: 1%;
+	color: #24069C;
+}
+textarea {
+	overflow: auto;
+	resize: none;
+	width: 70%;
+}
+form {
+	padding-top: 3%;
+	padding-bottom: 3%;
+}
+.identification {
+	padding: .5%;
+}
+#internalnav {
+	border-style: none;
+	padding-top: .9%;
+	padding-bottom: .9%;
+	display: block;
+}
+#internalnav ul {
+	width: 100%;
+	overflow: hidden;
+}
+#internalnav a {
+	border-style: solid;
+	border-width: .1em;
+	border-radius: .5em;
+	padding: 0.2%;
+	margin: 0.5%;
+	float: left;
+}
+table {
+	width: 100%;
+	border-style: solid;
+	border-width: .1em;
+	border-collapse: collapse;
+}	
+tr:nth-of-type(odd) {
+	background: #F29B18;
+}
+th {
+	background: #D6A358;
+	font-weight: bold;
+}
+td, th {
+	padding: 0.2%;
+	border: 1px solid #ccc;
+	text-align: center;
+}
+/* 
+Max width before this PARTICULAR table gets nasty
+This query will take effect for any screen smaller than 760px
+and also iPads specifically.
+*/
+@media 
+only screen and (max-width: 760px),
+(min-device-width: 768px) and (max-device-width: 1024px)  {
+
+	/* Force table to not be like tables anymore */
+	table, thead, tbody, th, td, tr { 
+		display: block; 
+	}
+	
+	/* Hide table headers (but not display: none;, for accessibility) */
+	thead tr { 
+		position: absolute;
+		top: -9999px;
+		left: -9999px;
+	}
+	
+	tr { border: 1px solid #ccc; }
+	
+	td { 
+		/* Behave  like a "row" */
+		border: none;
+		border-bottom: 1px solid #eee; 
+		position: relative;
+		padding-left: 50%; 
+	}
+	
+	td:before { 
+		/* Now like a table header */
+		position: absolute;
+		/* Top/left values mimic padding */
+		top: 6px;
+		left: 6px;
+		width: 45%; 
+		padding-right: 10px; 
+		white-space: nowrap;
+	}
+	
+	td:nth-of-type(1):before { content: "Produto"; }
+	td:nth-of-type(2):before { content: "Tamanho"; }
+	td:nth-of-type(3):before { content: "Preço"; }
+	
+
+}	/* Smartphones (portrait and landscape) ----------- */
+	@media only screen
+	and (min-device-width : 320px)
+	and (max-device-width : 480px) {
+		body { 
+			padding: 0; 
+			margin: 0; 
+			width: 320px; }
+		}
+	
+	/* iPads (portrait and landscape) ----------- */
+	@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+		body { 
+			width: 495px; 
+		}
+	}
+	
+.buttons {
+	border-style: none;
+	border-width: .1em;
+	border-radius: .5em;
+	padding: 0.5%;
+	margin: 0.5%;
+}
+fieldset {
+	border-style: ridge;
+	border-width: medium;
+	padding: 0.5%;
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html PUBLIC "-//W3//DTD XHTML 101//EN"
+"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>
+			Josatem
+		</title>
+		<link rel="stylesheet" type="text/css" media="screen" href="styles/basic.css" />
+	</head>
+
+	<body>
+		<div id="header">
+
+		</div>
+
+		<div id="navigation">
+			<ul>
+				<li><a href="/" >Home</a></li>
+				<li><a href="about" >Acerca da Josatem</a></li>
+				<li><a href="productlist" >Produtos</a></li>
+				<li><a href="contacts" class="here">Contactos</a></li>
+			</ul>
+		</div>
+
+		<div id="content">
+			<h1> Contacte-nos </h1>
+					<p>Preencha o formul&#225rio abaixo, ou se preferir poder&#225 enviar-nos directamente um email para <a href="mailto:josatem@hotmail.com">josatem@hotmail.com</a>
+					ou entrar em contacto connosco atrav&#233s dos nossos contactos telef&#243nicos <a href="tel:+351963785074">+351 963 785 074</a> ou <a href="tel:+351917864493">
+					+351 917 864 493</a>.<br />
+					Aguardamos por si.
+				<form method="post" action="#">
+					<fieldset>
+						<p class="identification">
+							<label for="name">Nome:</label>
+							<input type="text" id="name" name="nome" value="O seu nome" class="required" />
+						</p>
+						<p class="identification">
+							<label for="email">Endereço de email:</label>
+							<input type="email" id="email" name="email" class="email required" placeholder="exemplo@gmail.com" />
+						</p>
+						<p class="identification">
+							<label for="message">Mensagem:</label>
+							<textarea cols="45" rows="7" id="message" name="message" class="required" placeholder="Escreva aqui a sua mensagem"></textarea>
+						</p>
+						<p>
+						<input type="submit" value="Enviar" class="buttons"/>
+						<input type="reset" class="buttons"/>
+						</p>
+					</fieldset>
+				</form>
+		</div>
+				<footer>
+			<p><small>Copyright &copy;2013 Josatem, Lda.<br />
+			All rights reserved.</small></p>
+		</footer>
+		<script type="text/javascript" src="scripts/global.js"></script>
+		<script type="text/javascript" src="scripts/contact.js"></script>
+	</body>
+</html>

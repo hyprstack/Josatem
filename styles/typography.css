@@ -1,0 +1,51 @@
+body {
+	font-size: 90%;
+	font-family: "Helvetica","Arial",serif;
+}
+body * {
+	font-size: 1em;
+}
+#titlesite {
+	font-size: 700%;
+	font-family: "Apple Chancery","Andale Mono","Courier","Helvetica","Arial",serif;
+}
+a  {
+	font-weight: bold;
+	text-decoration: none;
+}
+#navigation {
+	font-family:"Lucida Grande","Helvetica","Arial",serif;
+}
+#navigation a {
+	text-decoration: none;
+	font-weight: bold;
+}
+#content {
+	line-height: 1.8em;
+}
+h1 {
+	font-family:"Georgia","Times New Roman",serif;
+	font: 2.4em normal;
+}
+h2 {
+	font-family:"Georgia","Times New Roman",serif;
+	font: 1.8em normal;
+	margin-top: 1em;
+}
+h3 {
+	font-family:"Georgia","Times New Roman",serif;
+	font: 1.4em normal;
+	margin-top: 1em;
+}
+.prodName {
+	text-align: left;
+}
+caption {
+	font-style: "Helvetica", serif;
+	font-weight: bold;
+	font-size: 1.5em;
+}
+.buttons {
+	font-size: 1em;
+	font-style: "Georgia", "Helvetica", "Arial", serif;
+}

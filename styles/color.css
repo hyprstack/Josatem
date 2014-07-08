@@ -1,0 +1,101 @@
+body {
+	color: #fb5;
+	background: #FFF;
+	background: #7d7e7d; /* Old browsers */
+	background: -moz-radial-gradient(center, ellipse cover,  #7d7e7d 0%, #0e0e0e 100%); /* FF3.6+ */
+	background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,#7d7e7d), color-stop(100%,#0e0e0e)); /* Chrome,Safari4+ */
+	background: -webkit-radial-gradient(center, ellipse cover,  #7d7e7d 0%,#0e0e0e 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-radial-gradient(center, ellipse cover,  #7d7e7d 0%,#0e0e0e 100%); /* Opera 12+ */
+	background: -ms-radial-gradient(center, ellipse cover,  #7d7e7d 0%,#0e0e0e 100%); /* IE10+ */
+	background: radial-gradient(ellipse at center,  #7d7e7d 0%,#0e0e0e 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7d7e7d', endColorstr='#0e0e0e',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+a:link {	
+	color: #445;
+	
+}
+a:visited {
+	color: #345;
+	background-color: #eb6;
+}
+a:hover {
+	color: #0715E0;
+}
+a:active {
+	color: #F01111;
+}
+#header {
+	color: #870c0c;
+	background-color: #a61010;
+	border-color: #667;	
+}
+#navigation {
+	color: #445;
+	background-color: #789;
+	border-color: #667;
+}
+#content {
+	color: #223;
+	background-color: #edc;
+	border-color: #667;
+}
+#navigation ul {
+	border-color: #99a;
+}
+#navigation a:link, #navigation a:visited {
+	color: #89000f;
+	background-color: transparent;
+	border-color: #99a;
+}
+#navigation a:hover {
+	color: #89000f;
+	background-color: #789;
+}
+#navigation a:active {
+	color: #667;
+	background-color: transparent;
+}
+#navigation a.here:link, 
+#navigation a.here:visited, 
+#navigation a.here:hover, 
+#navigation a.here:active {
+	color: #89000f;
+	background-color: #edc;
+}
+
+#internalnav a:hover {
+	color: #F01111;
+}
+#internalnav a:active {
+	-webkit-box-shadow: inset -.1em -.1em .3em .2em #D6A358;
+	-moz-box-shadow: inset -.1em -.1em .3em .2em #D6A358;
+	box-shadow: inset -.1em -.1em .3em .2em #D6A358;
+}
+.buttons {
+	background: #f1e767; /* Old browsers */
+	background: -moz-radial-gradient(center, ellipse cover,  #f1e767 11%, #feb645 47%, #feb645 62%); /* FF3.6+ */
+	background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(11%,#f1e767), color-stop(47%,#feb645), color-stop(62%,#feb645)); /* Chrome,Safari4+ */
+	background: -webkit-radial-gradient(center, ellipse cover,  #f1e767 11%,#feb645 47%,#feb645 62%); /* Chrome10+,Safari5.1+ */
+	background: -o-radial-gradient(center, ellipse cover,  #f1e767 11%,#feb645 47%,#feb645 62%); /* Opera 12+ */
+	background: -ms-radial-gradient(center, ellipse cover,  #f1e767 11%,#feb645 47%,#feb645 62%); /* IE10+ */
+	background: radial-gradient(ellipse at center,  #f1e767 11%,#feb645 47%,#feb645 62%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f1e767', endColorstr='#feb645',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+	-webkit-box-shadow: .2em .2em .3em .2em #4A4640;
+	-moz-box-shadow: .2em .2em .3em .2em #4A4640;
+	box-shadow: .2em .2em .3em .2em #4A4640;
+}
+.buttons:active {
+	-webkit-box-shadow: .1em .1em .3em .1em #4A4640;
+	-moz-box-shadow: .1em .1em .3em .1em #4A4640;
+	box-shadow: .1em .1em .3em .1em #4A4640;
+}
+
+
+fieldset {
+	background : #E69A29;
+	border-color: #000;
+}
+footer {
+	color: #fff;
+}
+
